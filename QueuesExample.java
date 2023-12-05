@@ -46,7 +46,6 @@ public class QueuesExample {
         //Peek at the head of the queue
 
         System.out.println(queue.peek());
-
     }
     
 }
