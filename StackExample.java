@@ -40,7 +40,7 @@ public class StackExample {
 
         //Add 100 items in a stack using a for loop
 
-        for (int i = 0; i < 999999; i++){
+        for (int i = 0; i < 9; i++){
             stack.push(" The Witcher");
         }
 
