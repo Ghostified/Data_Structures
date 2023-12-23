@@ -4,9 +4,9 @@
 <title>Data Structures In Java with Bro Code</title>
 </head>
 <body>
-<title>What is a data structure?</title>
+<strong>What is a data structure?</strong>
 <p> A data structure is a named location that can be used to store and organize data</p>
-<title>What is an algorithm?</title>
+<strong>What is an algorithm?</strong>
 <p>An algorithm is a series or sequence of steps that can be useed to solve a problem</p>
 <strong>Stack</strong>
 <p>
