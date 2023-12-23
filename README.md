@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Data Structures In Java with Bro Code</title>
+<strong>Data Structures In Java with Bro Code</strong>
 </head>
 <body>
 <strong>What is a data structure?</strong>
