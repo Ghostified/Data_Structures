@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <title>Data Structures In Java with Bro Code</title>
 </head>
@@ -7,7 +7,7 @@
 <title>What is a data structure?</title>
 <p> A data structure is a named location that can be used to store and organize data</p>
 <title>What is an algorithm?</title>
-<p>An algorithm is an series or sequence of steps that can be useed to solve a problem</p>
+<p>An algorithm is a series or sequence of steps that can be useed to solve a problem</p>
 <strong>Stack</strong>
 <p>
 A stack is LIFO data structure. (Last in First Out)
