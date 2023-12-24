@@ -5,11 +5,11 @@ public class Main {
     public static void main (String [] Args) {
         Graph graph = new Graph (5);
 
-        graph.addNode(New Node ('A'));
-        graph.addNode(New Node ('B'));
-        graph.addNode(New Node ('C'));
-        graph.addNode(New Node ('D'));
-        graph.addNode(New Node ('E'));
+        graph.addNode(new Node ('A'));
+        graph.addNode(new Node ('B'));
+        graph.addNode(new Node ('C'));
+        graph.addNode(new Node ('D'));
+        graph.addNode(new Node ('E'));
 
         graph.addEdge(0,1);
         graph.addEdge(1,2);
@@ -19,5 +19,6 @@ public class Main {
         graph.addEdge(4,2);
 
         graph.print();
+        System.out.println(graph.checkEdge(0,1));
     }
 }

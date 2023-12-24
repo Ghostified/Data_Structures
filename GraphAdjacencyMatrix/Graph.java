@@ -10,34 +10,49 @@
  */
 package GraphAdjacencyMatrix;
 import java.util.*;
-import java.util.Arrays;
 import java.math.*;
+import java.util.ArrayList;
 
 
 public class Graph{
     public static void main(String[]Args){
 
-        public int [][] matrix;
+        ArrayList <Node> nodes;
+          int [][] matrix;
 
-        public Graph( int size){
+        Graph( int size){
+            nodes = new ArrayList<> ();
             matrix = new int[size][size];
         }
 
         public void  addNode ( Node node) {
-
+            ArrayList nodes;
+            nodes.add(node);
         }
         public void addEdge ( int src , int dst){
+            int[][] matrix;
             matrix [src] [dst] = 1;
 
         }
 
         public boolean checkEdge ( int src , int dst) {
+            int[][] matrix;
             if (matrix [src ] [dst] == 1) {
                 return true;
             }
         }
          public void print () {
+            Node[] nodes;
+            System.out.print("  ");
+            for ( Node node : nodes) {
+                System.out.print(node.data + " ");
+            }
+            System.out.println();
+
+            int[][] matrix;
+
             for (int i =0; i < matrix.length; i++) {
+                System.out.print(nodes(i).data + " ");
                 for ( int j =0 ; j < matrix[i].length; j++){
                     System.out.print(matrix[i][j] + " ");
                 }
@@ -47,4 +62,4 @@ public class Graph{
 }
 
 
-}
+}}
