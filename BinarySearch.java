@@ -1,7 +1,11 @@
 import java.util.Arrays;
 
 public class BinarySearch {
-    public static void main(String [] args) {
+    public static void main(String [] args) throws InterruptedException {
+
+        //to claculate the runtime:
+        long start = System.nanoTime();
+
         int array [] = new int [1000000];
         int target = 77654;
         for (int i =0; i< array.length; i++){
@@ -20,6 +24,11 @@ public class BinarySearch {
         else {
             System.out.println("Element found at : " + index);
         }
+
+        //outputs the runtime
+   long duration = (System.nanoTime() - start)/100000;
+    System.out.println(duration + "ms");  
+    
     }
     private static int binarySearch(int[] array, int target) {
         int low = 0;
@@ -37,5 +46,8 @@ public class BinarySearch {
         }
 
         return -1;
+
+
     }
+
 }
