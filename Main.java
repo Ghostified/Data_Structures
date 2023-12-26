@@ -1,5 +1,11 @@
 public class Main {
 
+    //Depth First Search = Pick a route , keep going on that route
+    //                      If you reach a dead end in the route , 
+    //                      or already visited a node,
+    //                      Backtrack to a previous node with unvisited adjascent node
+
+
     public static void main(String []Args) {
         
         Graph graph = new Graph(5);
@@ -17,8 +23,15 @@ public class Main {
         graph.addEdge(4,0);
         graph.addEdge(4,2);
 
+        //Print out the matrix 
         graph.print();
 
-        System.out.println(graph.checkEdge(3,1));
+        //Check if a node has an edge
+        System.out.println("");
+        System.out.println("Does an edge exist? " + graph.checkEdge(+2,1));
+        System.out.println("");
+
+        //Visit a node 
+        graph.depthFirstSearch(4);
     }
 }
