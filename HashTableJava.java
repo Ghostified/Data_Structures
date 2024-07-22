@@ -13,7 +13,7 @@
  * can store multiple entries in case of collisions, 
  * For collissions , each bucket is treated as a linked list
  * 
- * Collisison =  happens when a hash functions generates the smae index for more than one key
+ * Collisison =  happens when a hash functions generates the same index for more than one key
  * less collisions = greater efficcassy
  * 
  * Runtime complexity : O(1) --- Best Case
@@ -44,12 +44,13 @@ public class HashTableJava {
         }
 
 
-        //Creating a hash table of Strings 
         System.out.println("\n");
         System.out.println(" ");
 
-        //Insert Objects to the hashtable 
+        //Creating a hash table of Strings 
         Hashtable <String, String> tableTwo = new Hashtable<>(10);
+
+        //Insert Objects to the hashtable 
         tableTwo.put ("100", "Spongebob");
         tableTwo.put ("101", "Patrick");
         tableTwo.put ("102", "Sandy");
